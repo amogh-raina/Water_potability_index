@@ -5,7 +5,7 @@
 ### Access to safe drinking-water is essential to health, a basic human right and a component of effective policy for health protection. This is important as a health and development issue at a national, regional and local level. In some regions, it has been shown that investments in water supply and sanitation can yield a net economic benefit, since the reductions in adverse health effects and health care costs outweigh the costs of undertaking the interventions.
 
 
-![alt text](https://storage.googleapis.com/kaggle-datasets-images/1292407/2153306/c1d5dacfb886cbee89685514a601372e/dataset-card.jpg?t=2021-04-24-07-23-57)
+![alt text](https://miro.medium.com/max/1400/1*yhRostGqKdEVdufNUBvi3w.jpeg)
 
 ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdhKYFRlorUWBURYRVGrzlCY6QAna7_06f4A&usqp=CAU)
 
