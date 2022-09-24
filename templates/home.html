@@ -1,1 +1,43 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+ <div class="login">
+	<h1>Water Potability Index</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+      <input type="text" name="ph" placeholder="ph" required="required" /><br>
+    	<input type="text" name="Hardness" placeholder="Hardness" required="required" /><br>
+        <input type="text" name="Solids" placeholder="Solids" required="required" /><br>
+        <input type="text" name="Chloramines" placeholder="Chloramines" required="required" /><br>
+        <input type="text" name="Sulfate" placeholder="Sulfate" required="required" /><br>
+        <input type="text" name="Conductivity" placeholder="Conductivity" required="required" /><br>
+        <input type="text" name="Organic_carbon" placeholder="Organic_carbon"  required="required" /><br>
+        <input type="text" name="Trihalomethanes" placeholder="Trihalomethanes" required="required" /><br>
+        <input type="text" name="Turbidity" placeholder="Turbidity" required="required" /><br>
+
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+  
+   
+ </div>
+ {{prediction_text}}
+
+</body>
+</html>
